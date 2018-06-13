@@ -1,12 +1,14 @@
 import React, {Fragment} from 'react';
 import { StyleSheet, Text, View, WebView } from 'react-native';
 import MyMaskedView from "./MyMaskedView";
+import {Hello} from "./Hello";
 
 export default class App extends React.Component {
     render() {
         return (
             <Fragment>
-                <MyMaskedView></MyMaskedView>
+                <Hello name={'jiangyu3'}/>
+                {/*<MyMaskedView></MyMaskedView>*/}
                 <WebView
                     source={{uri: 'http://cms.pub.sina.com.cn/index.php?r=document/BatchOfflineEntry&_debug=1'}}
                     style={{marginTop: 20, marginBottom: 20}}
