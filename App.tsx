@@ -7,7 +7,7 @@ export default class App extends React.Component {
     render() {
         return (
             <Fragment>
-                <Hello name={'jiangyu3'}/>
+                <Hello name={'jiangyu3'} enthusiasmLevel={1}/>
                 {/*<MyMaskedView></MyMaskedView>*/}
                 <WebView
                     source={{uri: 'http://cms.pub.sina.com.cn/index.php?r=document/BatchOfflineEntry&_debug=1'}}
